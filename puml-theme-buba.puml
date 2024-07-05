@@ -7,20 +7,52 @@
 skinparam rectangle {
     BackgroundColor RECTANGLE_COLOR
     BorderColor Black
-    FontName Arial
+    FontName "Times New Roman"
     FontSize 12
 }
 
 skinparam actor {
     BackgroundColor ACTOR_COLOR
-    FontName Arial
+    FontName "Times New Roman"
     FontSize 12
 }
 
 skinparam usecase {
     BackgroundColor USECASE_COLOR
-    FontName Arial
+    FontName "Times New Roman"
     FontSize 12
 }
 
+' Define styles for other elements in Times New Roman font
+skinparam {
+    DefaultFontName "Times New Roman"
+    ActivityFontName "Times New Roman"
+    BackgroundColor White
+    ArrowColor Black
+    ActorBorderColor Black
+    ActorBackgroundColor White
+    BoxBorderColor Black
+    BoxBackgroundColor White
+    UsecaseBorderColor Black
+    UsecaseBackgroundColor White
+    SequenceGroupBorderColor Black
+    SequenceGroupBackgroundColor White
+    SequenceLifeLineBorderColor Black
+    SequenceLifeLineBackgroundColor White
+    NoteBackgroundColor White
+    NoteBorderColor Black
+    SwimlaneBackgroundColor White
+    SwimlaneBorderColor Black
+    ComponentBorderColor Black
+    ComponentBackgroundColor White
+    StateBackgroundColor White
+    StateBorderColor Black
+    LegendBackgroundColor White
+    LegendBorderColor Black
+    TitleBackgroundColor White
+    TitleBorderColor Black
+}
+
 ' Add more styles as needed
+
+@enduml
