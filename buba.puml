@@ -1,0 +1,26 @@
+' Define default colors and styles
+!define RECTANGLE_COLOR #A9DCDF
+!define ACTOR_COLOR #FAC898
+!define USECASE_COLOR #E1D5E7
+
+' Apply styles to different UML elements
+skinparam rectangle {
+    BackgroundColor RECTANGLE_COLOR
+    BorderColor Black
+    FontName Arial
+    FontSize 12
+}
+
+skinparam actor {
+    BackgroundColor ACTOR_COLOR
+    FontName Arial
+    FontSize 12
+}
+
+skinparam usecase {
+    BackgroundColor USECASE_COLOR
+    FontName Arial
+    FontSize 12
+}
+
+' Add more styles as needed
